@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
-import {videos} from '../data/home.ts'
+import { useEffect, useRef, useState } from 'react'
 import formatDuration from '../utils/formatDuration.ts'
 import formatTimeAgo from '../utils/formatTimeAgo.ts'
 

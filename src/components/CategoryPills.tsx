@@ -40,7 +40,7 @@ const CategoryPills = ({
       <div className="flex whitespace-nowrap gap-3 transition-transform w-[max-content]" style= {{transform:`translateX(-${translate}px)`}}>
         {categories.map((item) => (
           <Button
-            key={categories}
+            key={item}
             variant={selectedCategory === item ? "dark" : "default"}
             onClick={() => onSelect(item)}
             className="px-3 py-1 rounded-lg whitespace-nowrap"

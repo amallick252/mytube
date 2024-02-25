@@ -1,5 +1,3 @@
-import React from 'react'
-
 const LEADING_ZERO_FORMATTER= new Intl.NumberFormat( undefined, {
     minimumIntegerDigits:2
 })
